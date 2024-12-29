@@ -1,5 +1,4 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local ESPLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Exunys-ESP/main/src/ESP.lua"))()
 
 local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
@@ -550,7 +549,7 @@ local ServerHop = Misc:CreateButton({
                 Rayfield:Notify({Title = "Server Hop", Content = "Couldn't find a valid server!!!", Duration = 1, Image = 4483362458,})
             end
         else
-            Rayfield:Notify({Title = "Server Hop", Content = "aaasdas", Duration = 1, Image = 4483362458,})
+            Rayfield:Notify({Title = "Server Hop", Content = "Your executor is ass!", Duration = 1, Image = 4483362458,})
         end
 	end,
 })
